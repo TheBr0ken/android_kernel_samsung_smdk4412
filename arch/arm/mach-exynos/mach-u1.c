@@ -219,6 +219,8 @@ static struct wacom_g5_callbacks *wacom_callbacks;
 #include "../../../drivers/usb/gadget/s3c_udc.h"
 #endif
 
+#include <mach/cpufreq.h>
+
 /* Following are default values for UCON, ULCON and UFCON UART registers */
 #define SMDKC210_UCON_DEFAULT	(S3C2410_UCON_TXILEVEL |	\
 				 S3C2410_UCON_RXILEVEL |	\
